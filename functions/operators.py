@@ -15,4 +15,4 @@ def show(var, integer1, integer2, label_text):
         else:
             result = int(integer1.get()) / int(integer2.get())
 
-    label_text.config(text=f'Result of action is {str(result)}')
+    label_text.config(text=f'Result of action is {int(result)}')
